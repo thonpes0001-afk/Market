@@ -1,0 +1,101 @@
+[
+  {
+    "id": "midnight-oud",
+    "name": "Midnight Oud",
+    "price": 69.0,
+    "size": "100ml",
+    "notes": [
+      "Oud",
+      "Saffron",
+      "Amber"
+    ],
+    "gender": "Unisex",
+    "description": "A deep, resinous oud wrapped in warm amber and a trace of saffron\u2014magnetic and long-lasting.",
+    "image": "assets/midnight_oud.svg",
+    "rating": 4.8,
+    "stock": 18,
+    "badge": "Bestseller"
+  },
+  {
+    "id": "citrus-noir",
+    "name": "Citrus Noir",
+    "price": 49.0,
+    "size": "100ml",
+    "notes": [
+      "Grapefruit",
+      "Vetiver",
+      "Cedar"
+    ],
+    "gender": "Men",
+    "description": "Bright grapefruit cuts through smoky vetiver and dry cedar for a crisp, modern contrast.",
+    "image": "assets/citrus_noir.svg",
+    "rating": 4.6,
+    "stock": 32,
+    "badge": "New"
+  },
+  {
+    "id": "amber-velvet",
+    "name": "Amber Velvet",
+    "price": 59.0,
+    "size": "100ml",
+    "notes": [
+      "Vanilla",
+      "Amber",
+      "Tonka"
+    ],
+    "gender": "Women",
+    "description": "Silky vanilla and plush amber glide over toasted tonka\u2014a comforting embrace with presence.",
+    "image": "assets/amber_velvet.svg",
+    "rating": 4.7,
+    "stock": 25
+  },
+  {
+    "id": "blue-steel",
+    "name": "Blue Steel",
+    "price": 54.0,
+    "size": "100ml",
+    "notes": [
+      "Marine",
+      "Bergamot",
+      "Musk"
+    ],
+    "gender": "Men",
+    "description": "Clean marine breeze meets zesty bergamot and cool musks for an effortless daily signature.",
+    "image": "assets/blue_steel.svg",
+    "rating": 4.5,
+    "stock": 40
+  },
+  {
+    "id": "rose-smoke",
+    "name": "Rose Smoke",
+    "price": 62.0,
+    "size": "100ml",
+    "notes": [
+      "Rose",
+      "Incense",
+      "Patchouli"
+    ],
+    "gender": "Women",
+    "description": "A dark rose veiled in incense, grounded by earthy patchouli\u2014romantic with an edge.",
+    "image": "assets/rose_smoke.svg",
+    "rating": 4.9,
+    "stock": 12,
+    "badge": "Limited"
+  },
+  {
+    "id": "white-musk",
+    "name": "White Musk",
+    "price": 39.0,
+    "size": "100ml",
+    "notes": [
+      "Musk",
+      "Iris",
+      "Cotton"
+    ],
+    "gender": "Unisex",
+    "description": "Feather-light musks and soft iris for a clean, minimalist aura\u2014perfect for everyday wear.",
+    "image": "assets/white_musk.svg",
+    "rating": 4.4,
+    "stock": 50
+  }
+]

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop — ZUVO Cologne</title>
+  <meta name="description" content="Premium fragrances crafted with character. Discover ZUVO Cologne — colognes with presence.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><defs><linearGradient id=%22g%22 x1=%220%22 x2=%221%22 y1=%220%22 y2=%221%22><stop offset=%220%25%22 stop-color=%22%238b5cf6%22/><stop offset=%22100%25%22 stop-color=%22%2306b6d4%22/></linearGradient></defs><rect width=%22100%25%22 height=%22100%25%22 rx=%2218%22 fill=%22url(%23g)%22/></svg>">
+</head>
+<body>
+<nav>
+  <div class="container row">
+    <a class="logo" href="index.html">
+      <span class="mark"></span> <span>ZUVO Cologne</span>
+    </a>
+    <div style="display:flex;gap:16px;align-items:center">
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html" class="btn ghost" id="cart-link">Cart (0)</a>
+    </div>
+  </div>
+</nav>
+<script src="js/app.js" defer></script>
+
+<div class="container header">
+  <h1>Shop</h1>
+  <p class="muted">Explore our collection. Filter by note, gender, or price.</p>
+</div>
+<div class="container">
+  <div class="controls">
+    <input id="search" type="search" placeholder="Search by name or note…" />
+    <select id="filter-gender">
+      <option value="">All genders</option>
+      <option>Men</option>
+      <option>Women</option>
+      <option>Unisex</option>
+    </select>
+    <select id="sort">
+      <option value="">Sort: Featured</option>
+      <option value="price-asc">Price: Low to High</option>
+      <option value="price-desc">Price: High to Low</option>
+      <option value="rating-desc">Rating: High to Low</option>
+    </select>
+    <input id="max-price" type="number" min="0" step="1" placeholder="Max price ($)" style="width:140px"/>
+  </div>
+  <div id="shop-grid" class="grid products"></div>
+</div>
+
+<footer>
+  <div class="container">
+    <div>© <span id="year"></span> ZUVO Cologne. All rights reserved.</div>
+  </div>
+</footer>
+</body></html>

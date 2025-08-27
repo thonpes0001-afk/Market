@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZUVO Cologne — Premium Cologne</title>
+  <meta name="description" content="Premium fragrances crafted with character. Discover ZUVO Cologne — colognes with presence.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><defs><linearGradient id=%22g%22 x1=%220%22 x2=%221%22 y1=%220%22 y2=%221%22><stop offset=%220%25%22 stop-color=%22%238b5cf6%22/><stop offset=%22100%25%22 stop-color=%22%2306b6d4%22/></linearGradient></defs><rect width=%22100%25%22 height=%22100%25%22 rx=%2218%22 fill=%22url(%23g)%22/></svg>">
+</head>
+<body>
+<nav>
+  <div class="container row">
+    <a class="logo" href="index.html">
+      <span class="mark"></span> <span>ZUVO Cologne</span>
+    </a>
+    <div style="display:flex;gap:16px;align-items:center">
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html" class="btn ghost" id="cart-link">Cart (0)</a>
+    </div>
+  </div>
+</nav>
+<script src="js/app.js" defer></script>
+
+<div class="container hero">
+  <div>
+    <div class="kicker">New Season · Handcrafted</div>
+    <h1>Fragrance with character.</h1>
+    <p>Clean, long-lasting formulas designed for everyday confidence. Explore our bestsellers and find your signature.</p>
+    <div style="display:flex;gap:10px;margin-top:8px">
+      <a class="btn" href="shop.html">Shop now</a>
+      <a class="btn ghost" href="about.html">Learn more</a>
+    </div>
+  </div>
+  <img src="assets/hero.svg" alt="Fragrance bottles hero image"/>
+</div>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Featured</h2>
+    <div id="featured" class="grid products"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container card" style="padding:24px">
+    <div class="grid" style="grid-template-columns:1.2fr .8fr;align-items:center">
+      <div>
+        <div class="kicker">Why ZUVO Cologne</div>
+        <h3 style="margin:6px 0 10px">Premium quality, fair pricing</h3>
+        <p class="muted">We use high concentration oils, IFRA-compliant ingredients, and small-batch production. No retail markups.</p>
+        <ul>
+          <li>Long-lasting (Eau de Parfum)</li>
+          <li>Vegan & cruelty-free</li>
+          <li>Free returns within 14 days</li>
+        </ul>
+      </div>
+      <div class="card" style="padding:18px">
+        <div class="kicker">Top Reviews</div>
+        <hr class="sep"/>
+        <p>“Midnight Oud is a compliment magnet. Two sprays last me all day.” — Dara ⭐⭐⭐⭐⭐</p>
+        <p>“Citrus Noir is so clean and fresh. Perfect daily scent.” — Sreyneang ⭐⭐⭐⭐⭐</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div>© <span id="year"></span> ZUVO Cologne. All rights reserved.</div>
+  </div>
+</footer>
+</body></html>
